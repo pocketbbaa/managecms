@@ -87,12 +87,20 @@
                             </div>
                             <div class="control-group">
                                 <label class="control-label">比赛项目：</label>
-                                <div class="controls"><input type="text" class="span3"
-                                                             placeholder=""/> <input type="text"
+                                <div class="controls">
+                                    <input type="text" class="span3"
+                                                             placeholder=""/>
+                                    <input type="text"
                                                                                      class="span3"
                                                                                      placeholder=""/>
-                                    <input type="text" class="span3" placeholder=""/> <input
-                                            type="text" class="span3" placeholder=""/></div>
+                                    <input type="text" class="span3" placeholder=""/>
+                                    <input
+                                            type="text" class="span3" placeholder=""/>
+                                    <input type="text" class="span3" placeholder=""/>
+                                    <input
+                                            type="text" class="span3" placeholder=""/>
+
+                                </div>
                             </div>
                             <div class="control-group">
                                 <label class="control-label">比赛组别：</label>
@@ -100,7 +108,10 @@
                                     <label><input type="checkbox" name="radios"/> 小学组</label>
                                     <label><input type="checkbox" name="radios"/> 中学组</label>
                                     <label><input type="checkbox" name="radios"/> 亲子组</label>
-                                    <label><input type="checkbox" name="radios"/> 双人组</label>
+                                    <label><input type="checkbox" name="radios"/> 小学低段</label>
+                                    <label><input type="checkbox" name="radios"/> 小学中段</label>
+                                    <label><input type="checkbox" name="radios"/> 小学高段</label>
+                                    <label><input type="checkbox" name="radios"/> 幼儿组</label>
                                 </div>
                             </div>
 
@@ -122,17 +133,7 @@
                                     <textarea class="span20" style="height: 150px;" placeholder=""></textarea>
                                 </div>
                             </div>
-                            <div class="control-group">
-                                <label class="control-label">获奖分配：</label>
-                                <div class="controls">
-                                    <span>一等奖人数(比例)</span>
-                                    <input type="number" style="width: 10%" class="span3" placeholder=""/>(%)
-                                    <span style="margin-left: 20px;">二等奖人数(比例)</span>
-                                    <input type="number" style="width: 10%" class="span3" placeholder=""/>(%)
-                                    <span style="margin-left: 20px;">三等奖人数(比例)</span>
-                                    <input type="number" style="width: 10%" class="span3" placeholder=""/>(%)
-                                </div>
-                            </div>
+
                             <div class="form-actions">
                                 <a href="competition_manager.jsp" type="submit" class="btn btn-success" style="width: 200px;margin-left: 40%">保存</a>
                             </div>

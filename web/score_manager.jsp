@@ -110,43 +110,10 @@
                                         <div class="control-group">
                                             <label class="control-label">单位：</label>
                                             <div class="controls">
-                                                <input type="text" class="span20" placeholder=""/>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="3">
-                                        <div class="control-group">
-                                            <label class="control-label">选手姓名：</label>
-                                            <div class="controls">
-                                                <input type="text" class="span20" placeholder=""/>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">第一轮成绩：</label>
-                                            <div class="controls">
-                                                <input type="text" class="span20" placeholder=""/>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">第二轮成绩：</label>
-                                            <div class="controls">
-                                                <input type="text" class="span20" placeholder=""/>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">第三轮成绩：</label>
-                                            <div class="controls">
-                                                <input type="text" class="span20" placeholder=""/>
+                                                <select>
+                                                    <option>选择学校</option>
+                                                    <option>成都市草堂小学</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </td>
@@ -158,7 +125,7 @@
                                 <div style="display: inline-block;margin-left: 70%"><a href="score_manager.jsp"
                                                                                        type="submit"
                                                                                        class="btn btn-success"
-                                                                                       style="width: 200px;">确定录入</a>
+                                                                                       style="width: 200px;">查询单位参赛信息</a>
                                 </div>
                             </div>
                         </form>
@@ -186,8 +153,10 @@
                                 <th>比赛</th>
                                 <th>项目</th>
                                 <th>组别</th>
-                                <th>第一轮成绩</th>
-                                <th>第二轮成绩</th>
+                                <th>第一轮成绩（分数）</th>
+                                <th>第一轮成绩（时间）</th>
+                                <th>第二轮成绩（分数）</th>
+                                <th>第二轮成绩（时间）</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -199,20 +168,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -221,20 +181,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -243,20 +194,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -265,20 +207,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -287,20 +220,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -309,20 +233,11 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
                             <tr class="gradeU">
                                 <td>1</td>
@@ -331,65 +246,13 @@
                                 <td>四驱车</td>
                                 <td>零速争霸赛</td>
                                 <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><a href="#">确定</a><a href="#" style="margin-left: 20px;">编辑</a></td>
                             </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>1</td>
-                                <td>实验小学</td>
-                                <td>付媛媛</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>1</td>
-                                <td>实验小学</td>
-                                <td>付媛媛</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
-                            <tr class="gradeU">
-                                <td>2</td>
-                                <td>实验小学</td>
-                                <td>黄月</td>
-                                <td>四驱车</td>
-                                <td>零速争霸赛</td>
-                                <td>小学</td>
-                                <td>30</td>
-                                <td>45</td>
-                                <td><a href="#">删除重录</a></td>
-                            </tr>
+
 
                             </tbody>
                         </table>

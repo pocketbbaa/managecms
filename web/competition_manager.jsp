@@ -71,145 +71,17 @@
                             <tr>
                                 <th>比赛编号</th>
                                 <th>比赛名称</th>
-                                <th>比赛时间</th>
-                                <th>比赛地点</th>
                                 <th>是否启用</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>纸飞机</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>四驱车</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>飞叠杯</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>纸飞机</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>四驱车</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>飞叠杯</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>纸飞机</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>四驱车</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>飞叠杯</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>纸飞机</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>四驱车</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>1</td>
-                                <td>飞叠杯</td>
-                                <td>2017-11-1 ～ 2017-11-9</td>
-                                <td class="center">成都新会展中心</td>
-                                <td class="center">是</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">启用</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">编辑</a><a href="#"
-                                                                            style="margin-left: 20px;">删除</a></td>
-                            </tr>
+                                 <tr>
+                                     <td>1</td>
+                                     <td>纸飞机</td>
+                                     <td>是</td>
+                                     <td><a href="#">启用</a><a href="#" style="margin-left: 20px;">编辑</a><a href="#" style="margin-left: 20px;">删除</a></td>
+                                 </tr>
                             </tbody>
                         </table>
                     </div>

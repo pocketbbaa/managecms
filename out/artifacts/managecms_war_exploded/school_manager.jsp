@@ -43,7 +43,7 @@
         <li><a href="competition_manager.jsp"><i class="icon icon-signal"></i> <span>比赛管理</span></a></li>
         <li><a href="score_manager.jsp"><i class="icon icon-inbox"></i> <span>成绩录入</span></a></li>
         <li><a href="score_list.jsp"><i class="icon icon-th"></i> <span>成绩查看</span></a></li>
-        <li><a href="school_manager.jsp"><i class="icon icon-fullscreen"></i> <span>学校管理</span></a></li>
+        <li><a href="school_manager.jsp"><i class="icon icon-fullscreen"></i> <span>会员管理</span></a></li>
     </ul>
 
 </div>
@@ -69,85 +69,18 @@
                         <table class="table table-bordered table-striped">
                             <thead>
                             <tr>
-                                <th>学校名称</th>
-                                <th>学校地址</th>
-                                <th>学校竞赛码</th>
-                                <th>操作</th>
+                                <th>电话／账号</th>
+                                <th>注册时间</th>
+                                <th>会员类型</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
+                                <td>13987654321</td>
+                                <td>2017-09-09 19：23：23</td>
+                                <td>学校</td>
                             </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
-                            <tr class="odd gradeX">
-                                <td>草堂小学</td>
-                                <td>成都市草堂小学</td>
-                                <td>GFTRD23HJHJYHD4</td>
-                                <td class="center"><a href="#" style="margin-left: 20%;">编辑</a><a
-                                        href="competition_add.jsp"
-                                        style="margin-left: 20px;">删除</a></td>
-                            </tr>
+
 
 
                             </tbody>
